@@ -49,3 +49,11 @@ print("Value of Pi:", math.pi)
 
 #Value of Euler's Number (math.e):
 print("Value of Euler's number (e):", math.e)
+
+number = 4.2
+result = math.ceil(number)
+print("Ceiling of 4.2:", result)
+
+number = 4.8
+result = math.floor(number)
+print("Floor of 4.8:", result)
