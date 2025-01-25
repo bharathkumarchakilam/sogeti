@@ -1,0 +1,12 @@
+Python's garbage collector is part of its memory management system, 
+automatically deallocating memory that is no longer used.
+
+The primary mechanism for memory management in Python is reference counting.
+
+Each object in Python has a reference count. When the reference count drops to 
+zero, the memory is immediately deallocated.
+
+Python's gc module manages the collection of unused objects 
+
+The garbage collector detects and resolves these cycles.
+
