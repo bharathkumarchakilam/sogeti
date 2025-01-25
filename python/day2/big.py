@@ -1,6 +1,7 @@
+import dis
 import array as arr
-def display(num):
-    print(f"The biggest number is {num}")
+def display(num,loc):
+    print(f"The biggest number is {num} and stored in ar({loc})")
     
 def length():
     n=int(input("enter the n value: "))
@@ -12,20 +13,22 @@ def input_val(arrr,n):
         arrr.insert(i,a)
     return arrr
 
-def biggest(ar):
+def biggest(ar,n):
     max=ar[0]
-    for num in ar:
-        if num > max:
-            max=num
-    return max
+    t=''
+    for i in range(n):
+        for num in ar:
+            if num > max:
+                max=num
+                t=i
+    return max,i
 
 def main():
     n=length()
     arrr=arr.array('i',[])
     ar=input_val(arrr,n)
-    maximum=biggest(ar)
-    display(maximum)
-    
+    maximum,location=biggest(ar,n)
+    display(maximum,location)
 main()
     
     
