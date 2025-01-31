@@ -33,3 +33,11 @@ day-6:
 -destructor
 -static variables
 -polymorphism
+-examples on oops
+
+day-7
+-example on the oops
+-modules
+-concrete method
+-abstract method
+-interface
