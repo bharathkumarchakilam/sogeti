@@ -12,7 +12,7 @@ day-2:
 -biggest of the numbers
 
 day-3:
--Test-1
+-Assessment-1
 
 day-4:
 -Arrays
@@ -43,3 +43,11 @@ day-7
 -interface
 
 day-8
+-more examples on oops
+
+day-9
+-file operations
+-Assessment-2
+
+day-10
+-Inserting the data in the csv file

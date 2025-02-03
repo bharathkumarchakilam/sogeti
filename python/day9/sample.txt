@@ -1,0 +1,3 @@
+hello, this is sample text: 
+hello world
+hello bharath
