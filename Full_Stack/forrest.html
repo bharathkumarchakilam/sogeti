@@ -1,0 +1,27 @@
+<html>
+<head>
+<title>Forrest gump</title>
+</head>
+<body>
+<body>
+    <marquee direction="right" scrollamount="20"><h2>Forrest Gump (1994) Movie Still</h2></marquee>
+    <img src="https://cdn.britannica.com/48/246648-050-463BCD34/publicity-still-Forrest-Gump-1994.jpg"
+    alt="Forrest Gump 1994 Movie Still" 
+    width="600">
+    <marquee id="marq" direction="left" scrollamount="20">Click to Change Speed</marquee>
+    <button onclick="increaseSpeed()">Increase Speed</button>
+    <button onclick="decreaseSpeed()">Decrease Speed</button>
+
+    <script>
+    function increaseSpeed() {
+        var marq = document.getElementById("marq");
+        marq.scrollAmount += 10; // Increase speed
+    }
+    function decreaseSpeed() {
+        var marq = document.getElementById("marq");
+        marq.scrollAmount -= 10; // Increase speed
+    }
+    </script>
+
+</body>
+</html>
